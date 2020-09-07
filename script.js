@@ -54,6 +54,12 @@ let x = setInterval( () => {
         seconds = Math.floor((distance % (1000 * 60)) / 1000);
                
         let formatDate = `${days},${hours}:${minutes}:${seconds}`;
-        console.log(formatDate)    
+        console.log(formatDate)
+        
+        if(seconds < 10){
+            seconds = "0"+String(seconds);   
+        }
+        animateTime(String(lastSeconds), String(seconds), "seconds");
+        lastSeconds = seconds;
     }  
 },1000);
