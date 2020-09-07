@@ -8,7 +8,7 @@ let lastDays = "00";
 let lastHours = "00";
 let lastMinutes = "00";
 let lastSeconds = "00";
-let futureDate = "2020/09/07 02:08:01";
+let futureDate = "2020/09/08 02:08:01";
 
 let countDownDate = new Date(futureDate).getTime();
 
@@ -37,6 +37,27 @@ function animate(index, value, className){
     },500);
 }
 
+function removeDiv(count){
+    if(totalDiv.length > String(days).length){
+         count = totalDiv.length - count;
+         for(let i=0; i<count; i++){
+            totalDiv[i].remove();  
+            console.log(totalDiv[i])
+        }
+    }  
+}
+
+function addDiv(count){
+    if(String(days).length > totalDiv.length){
+         for(let i=count; i>0; i--){
+            let newDiv = document.createElement("div");
+            newDiv.classList.add('days');
+            newDiv.innerHTML = "<div>0</div>"; 
+            document.getElementById("clock").prepend(newDiv)
+        }
+    }  
+}
+
 let x = setInterval( () => {
 
     let now = new Date().getTime();
@@ -56,6 +77,15 @@ let x = setInterval( () => {
         let formatDate = `${days},${hours}:${minutes}:${seconds}`;
         console.log(formatDate)
 
+        totalDiv = document.getElementsByClassName("days");
+        if(totalDiv.length != String(days).length ){
+            if(totalDiv.length > String(days).length){
+                removeDiv(String(days).length)
+            }
+            if(String(days).length > 2){   
+                addDiv(String(days).length - 2)
+            }
+        }
 
         
         if(days < 10){
