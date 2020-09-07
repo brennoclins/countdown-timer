@@ -54,3 +54,17 @@ body{
     position: relative;
 }
 
+.move{
+    animation: move ease-in-out 1s infinite;
+}
+
+@keyframes move {
+    from{
+        opacity: 5;
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-25vh);
+        opacity: 0;
+    }
+}
