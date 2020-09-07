@@ -8,7 +8,7 @@ let lastDays = "00";
 let lastHours = "00";
 let lastMinutes = "00";
 let lastSeconds = "00";
-let futureDate = "2020/09/08 02:08:01";
+let futureDate = "2020/12/16 05:57:01";
 
 let countDownDate = new Date(futureDate).getTime();
 
@@ -75,19 +75,21 @@ let x = setInterval( () => {
         seconds = Math.floor((distance % (1000 * 60)) / 1000);
                
         let formatDate = `${days},${hours}:${minutes}:${seconds}`;
-        console.log(formatDate)
+        //console.log(formatDate)
 
         totalDiv = document.getElementsByClassName("days");
-        if(totalDiv.length != String(days).length ){
-            if(totalDiv.length > String(days).length){
-                removeDiv(String(days).length)
-            }
-            if(String(days).length > 2){   
-                addDiv(String(days).length - 2)
+        if(String(days) > 2) {
+            if(totalDiv.length != String(days).length) {
+                if( totalDiv.length > String(days).length) {
+                    removeDiv(String(days).length)
+                }
+                if(String(days).length > 2) {   
+                    addDiv(String(days).length - 2)
+                }
             }
         }
 
-        
+
         if(days < 10){
             days = "0"+String(days);   
         }
