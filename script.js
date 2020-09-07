@@ -55,7 +55,15 @@ let x = setInterval( () => {
                
         let formatDate = `${days},${hours}:${minutes}:${seconds}`;
         console.log(formatDate)
+
+
         
+        if(days < 10){
+            days = "0"+String(days);   
+        }
+        animateTime(String(lastDays), String(days), "days");
+        lastDays = days;
+
         if(hours < 10){
             hours = "0"+String(hours);   
         }
