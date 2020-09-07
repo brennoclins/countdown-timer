@@ -8,7 +8,7 @@ let lastDays = "00";
 let lastHours = "00";
 let lastMinutes = "00";
 let lastSeconds = "00";
-let futureDate = "2020/09/07 01:08:01";
+let futureDate = "2020/09/07 02:08:01";
 
 let countDownDate = new Date(futureDate).getTime();
 
@@ -56,6 +56,18 @@ let x = setInterval( () => {
         let formatDate = `${days},${hours}:${minutes}:${seconds}`;
         console.log(formatDate)
         
+        if(hours < 10){
+            hours = "0"+String(hours);   
+        }
+        animateTime(String(lastHours), String(hours), "hours");
+        lastHours = hours
+        
+        if(minutes < 10){
+            minutes = "0"+String(minutes);   
+        }
+        animateTime(String(lastMinutes), String(minutes), "minutes");
+        lastMinutes = minutes;
+
         if(seconds < 10){
             seconds = "0"+String(seconds);   
         }
