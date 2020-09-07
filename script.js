@@ -8,11 +8,34 @@ let lastDays = "00";
 let lastHours = "00";
 let lastMinutes = "00";
 let lastSeconds = "00";
-let futureDate = "2020/09/07 00:48:01";
+let futureDate = "2020/09/07 01:08:01";
 
 let countDownDate = new Date(futureDate).getTime();
 
+function animateTime(last, now, className){
+    for(let i=0; i<now.length; i++){
+        if(last[i] != now[i]){
+            animate(i, now[i], className);
+        }
+    }
+}
 
+function animate(index, value, className){
+    let element = document.getElementsByClassName(className)[index];
+    let second  = element.lastElementChild.cloneNode(true);
+
+    second.innerHTML = value;
+
+    element.appendChild(second);
+    element.classList.add('move');
+    setTimeout(() => {
+        element.classList.remove('move');
+    },500);
+
+    setTimeout(() => {
+        element.removeChild(element.firstElementChild);
+    },500);
+}
 
 let x = setInterval( () => {
 
