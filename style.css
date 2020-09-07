@@ -29,3 +29,11 @@ body{
     margin-bottom: 6vh;
 }
 
+#time{
+    display: flex;
+    color: grey;
+    font-size: 5vh;
+    width: 85vw;
+    justify-content: space-around;
+}
+
