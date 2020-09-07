@@ -41,3 +41,16 @@ body{
     font-size: 5vw;
 }
 
+#clock{
+    padding-top: 1.5rem;
+    margin: 1vw;
+    display: flex;
+    color: rgba(255,255,255, 0.7);
+    font-size: 12vw;
+    font-family: "Courier-new", Courier, monospace;
+    height: 20vh;
+    line-height: 21vh;
+    overflow: hidden;
+    position: relative;
+}
+
