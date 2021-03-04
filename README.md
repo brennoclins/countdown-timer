@@ -1,5 +1,5 @@
 <h4 align="center">
-    <img src="./BCL-ST_1900x800.png" width="450px" /><br>
+    <img src="./BCL-ST_1900x800.png" width="1200px" /><br>
     <b>Contagem regressiva! 😍</b>
 </h4>
 <p align="center">
@@ -10,16 +10,22 @@
 </p>
 
 <br>
-# HTML5 - CSS - JavaScript
 
-## :muscle: Countdown Timer
+# HTML5 - CSS - JavaScript - Countdown Timer
 
 Esse é um pequeno projeto de um cronômetro com contagem regressiva usando HTML, CSS, e JS
 
 
 Autor: Brenno C. Lins
 
-### :rocket: Tecnologias usadas
+
+
+## Captura de tela
+
+![screen1](002.png) ![screen2](003.png)
+
+
+### Tecnologias usadas
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -38,7 +44,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - Aplicar conceitos básicos de HTML na criação de um app web
 
 
-### :recycle: Como contribuir
+### Como contribuir
 
 - Fork esse repositório;
 - Crie uma branch com a sua feature: `git checkout -b meu-cronometro`
@@ -46,12 +52,12 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - Push a sua branch: `git push origin meu-cronometro`
 
 
-### :mortar_board: De onde eu me baseei para fazer esse projeto?
+### De onde eu me baseei para fazer esse projeto?
 
 O canal no youtube <b>Code Spot</b> [Build a rotating Countdown timer in Javascript](https://www.youtube.com/watch?v=VqToCBmqq6w)
 
 
-### :muscle: Links:
+### Links:
 
 - [CODE SPOT](https://www.youtube.com/channel/UCNSe13znA4YRG-DQJSfjC2Q)
 - [BCL-ST](https://www.bcl-st.com.br)
