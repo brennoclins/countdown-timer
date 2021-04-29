@@ -1,5 +1,5 @@
 <h4 align="center">
-    <img src="./BCL-ST_1900x800.png" width="1200px" /><br>
+    <img src="./imgs/BCL-ST_1900x800.png" width="1200px" /><br>
     <b>Contagem regressiva! 😍</b>
 </h4>
 <p align="center">
@@ -25,7 +25,7 @@ Veja o projeto em ação: [Countdown Time by Brenno](https://countdown-timer.pag
 
 ## Captura de tela
 
-![screen1](002.png) ![screen2](003.png)
+![screen1](./imgs/002.png) ![screen2](./imgs/003.png)
 
 
 ### Tecnologias usadas
@@ -56,7 +56,7 @@ cd countdown-timer
 code .
 ```
 
-OBS.: Abra o arquivo `index.html` em seu navegador vaforito e divirta-se :)
+OBS.: Abra o arquivo `index.html` em seu navegador favorito e divirta-se :)
 
 ### Como contribuir
 
