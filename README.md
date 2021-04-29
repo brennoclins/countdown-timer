@@ -11,14 +11,17 @@
 
 <br>
 
-# HTML5 - CSS - JavaScript - Countdown Timer
+# Countdown Timer usando: HTML5 - CSS - JavaScript Puro
 
 Esse é um pequeno projeto de um cronômetro com contagem regressiva usando HTML, CSS, e JS
 
 
-Autor: Brenno C. Lins
+Autor: `Brenno - BCL-ST`
 
 
+Veja o projeto em ação: [Countdown Time by Brenno](https://countdown-timer.pages.dev/)
+
+---
 
 ## Captura de tela
 
@@ -38,11 +41,22 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 #### Esse simples projeto nos ensina:
 
 - Criar um cronometro com os numeros subindo
-- A trata data usando JavaScript
+- Tratamento de data usando JavaScript
 - Usar IFs com JavaScript
 - Estilização e animação usando CSS
 - Aplicar conceitos básicos de HTML na criação de um app web
 
+### Instalação
+
+```js
+git clone https://github.com/brennoclins/countdown-timer.git
+
+cd countdown-timer
+
+code .
+```
+
+OBS.: Abra o arquivo `index.html` em seu navegador vaforito e divirta-se :)
 
 ### Como contribuir
 
@@ -59,9 +73,9 @@ O canal no youtube <b>Code Spot</b> [Build a rotating Countdown timer in Javascr
 
 ### Links:
 
-- [CODE SPOT](https://www.youtube.com/channel/UCNSe13znA4YRG-DQJSfjC2Q)
 - [BCL-ST](https://www.bcl-st.com.br)
-
+- [DevMeditation](https://www.instagram.com/devmeditation/)
+- [CODE SPOT](https://www.youtube.com/channel/UCNSe13znA4YRG-DQJSfjC2Q)
 ---
 
 Feito com 😍 Brenno Dev 😍
