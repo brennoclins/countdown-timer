@@ -8,7 +8,7 @@ let lastDays = "00";
 let lastHours = "00";
 let lastMinutes = "00";
 let lastSeconds = "00";
-let futureDate = "2021/11/25 05:57:01";
+let futureDate = "2022/09/05 05:57:01";
 
 let countDownDate = new Date(futureDate).getTime();
 
